@@ -36,5 +36,5 @@ def produtos(request):
     return render(request, 'produtos.html', {'produtos': produtos})
 
 def index(request):
-    mensagem = 'Olá!'
+    mensagem = 'Olá, primeira herança de template!'
     return render(request, 'index.html', {'mensagem': mensagem})
